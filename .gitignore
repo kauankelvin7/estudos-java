@@ -1,0 +1,17 @@
+# Builds locais e temporários
+**/target/
+.gradle/
+.idea/
+.vscode/
+*.iml
+*.class
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+# Arquivos dos bancos locais
+*.mv.db
+*.trace.db
+.mvn/dist/

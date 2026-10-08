@@ -1,0 +1,5 @@
+.root { -fx-font-family: "Segoe UI", "Arial", sans-serif; -fx-font-size: 14px; }
+.janela { -fx-background-color: #f7f8fa; }
+.button { -fx-background-color: #1f2937; -fx-text-fill: white; -fx-background-radius: 6; -fx-padding: 8 14; }
+.button:hover { -fx-background-color: #374151; }
+.list-view { -fx-background-radius: 6; -fx-border-color: #d1d5db; -fx-border-radius: 6; }

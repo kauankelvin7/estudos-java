@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.dev.estudos</groupId>
+  <artifactId>estudos-java</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Estudos Java — laboratório prático</name>
+  <modules>
+    <module>01-algoritmos-estruturas</module>
+    <module>02-fundamentos-java</module>
+    <module>03-estruturas-controle</module>
+    <module>04-classes-objetos-metodos</module>
+    <module>05-orientacao-objetos</module>
+    <module>06-pilares-poo</module>
+    <module>07-lambdas</module>
+    <module>08-stream-api</module>
+    <module>09-tratamento-excecoes</module>
+    <module>10-javafx</module>
+    <module>11-banco-relacional</module>
+    <module>12-banco-nosql</module>
+    <module>13-jpa-hibernate</module>
+    <module>14-spring-boot</module>
+  </modules>
+  <properties>
+    <maven.compiler.release>21</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <junit.version>5.12.2</junit.version>
+    <spring-boot.version>3.5.6</spring-boot.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency><groupId>org.junit</groupId><artifactId>junit-bom</artifactId><version>${junit.version}</version><type>pom</type><scope>import</scope></dependency>
+      <dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-dependencies</artifactId><version>${spring-boot.version}</version><type>pom</type><scope>import</scope></dependency>
+    </dependencies>
+  </dependencyManagement>
+  <build>
+    <pluginManagement><plugins>
+      <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId><version>3.14.0</version><configuration><release>${maven.compiler.release}</release><parameters>true</parameters></configuration></plugin>
+      <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-surefire-plugin</artifactId><version>3.5.3</version><configuration><useModulePath>false</useModulePath></configuration></plugin>
+      <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-jar-plugin</artifactId><version>3.4.2</version></plugin>
+      <plugin><groupId>org.codehaus.mojo</groupId><artifactId>exec-maven-plugin</artifactId><version>3.5.1</version></plugin>
+    </plugins></pluginManagement>
+  </build>
+</project>
