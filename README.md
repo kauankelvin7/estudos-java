@@ -1,8 +1,38 @@
+![Banner do Estudos Java — do algoritmo à API REST](assets/estudos-java-hero.webp)
+
+<p align="center">
+  <a href="02-fundamentos-java/README.md"><img alt="Java 21" src="https://img.shields.io/badge/Java-21-F89820?style=for-the-badge&logo=openjdk&logoColor=white"></a>
+  <a href="pom.xml"><img alt="Maven" src="https://img.shields.io/badge/Maven-3.9-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white"></a>
+  <a href="docs/QUALIDADE.md"><img alt="JUnit 5" src="https://img.shields.io/badge/JUnit-5-25A162?style=for-the-badge&logo=junit5&logoColor=white"></a>
+  <a href="14-spring-boot/README.md"><img alt="Spring Boot" src="https://img.shields.io/badge/Spring_Boot-3.5-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"></a>
+</p>
+
+<p align="center">
+  <a href="10-javafx/README.md"><img alt="JavaFX" src="https://img.shields.io/badge/JavaFX-Desktop-007396?style=flat-square"></a>
+  <a href="11-banco-relacional/README.md"><img alt="JDBC e H2" src="https://img.shields.io/badge/JDBC-H2-4768BC?style=flat-square"></a>
+  <a href="12-banco-nosql/README.md"><img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-NoSQL-47A248?style=flat-square&logo=mongodb&logoColor=white"></a>
+  <a href="13-jpa-hibernate/README.md"><img alt="Hibernate e JPA" src="https://img.shields.io/badge/JPA-Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white"></a>
+  <a href="docs/QUALIDADE.md"><img alt="28 testes executados com sucesso" src="https://img.shields.io/badge/Testes-28%20aprovados-2EA44F?style=flat-square"></a>
+  <a href=".github/workflows/ci.yml"><img alt="GitHub Actions configurado" src="https://img.shields.io/badge/CI-configurada-2088FF?style=flat-square&logo=githubactions&logoColor=white"></a>
+</p>
+
 # Estudos Java
 
 Laboratório de código para estudar **do algoritmo à API REST**, com exemplos de negócio, testes automatizados e documentação de decisões. Os módulos são independentes: cada um pode ser compilado e executado sem conhecer a implementação dos demais.
 
 > **Stack:** Java 21 (LTS), Maven, JUnit 5, JavaFX, JDBC/H2, MongoDB, JPA/Hibernate e Spring Boot.
+
+## Tópicos e tecnologias
+
+Os assuntos foram separados por contexto, com código e documentação próprios para facilitar a consulta:
+
+- **Fundamentos:** [algoritmos e estruturas de dados](01-algoritmos-estruturas/README.md), [Java 21](02-fundamentos-java/README.md), [controle de fluxo](03-estruturas-controle/README.md) e [classes e objetos](04-classes-objetos-metodos/README.md).
+- **Orientação a objetos:** [composição e colaboração](05-orientacao-objetos/README.md), [encapsulamento, herança, polimorfismo e abstração](06-pilares-poo/README.md).
+- **Java funcional:** [lambdas](07-lambdas/README.md), [Stream API](08-stream-api/README.md) e [tratamento de exceções](09-tratamento-excecoes/README.md).
+- **Interfaces e dados:** [JavaFX](10-javafx/README.md), [SQL/JDBC](11-banco-relacional/README.md), [MongoDB](12-banco-nosql/README.md) e [JPA/Hibernate](13-jpa-hibernate/README.md).
+- **Back-end e qualidade:** [Spring Boot e API REST](14-spring-boot/README.md), [testes e boas práticas](docs/QUALIDADE.md), [arquitetura](docs/ARQUITETURA.md) e [integração contínua](.github/workflows/ci.yml).
+
+<sub>Os badges de quantidade representam a validação local de 08/10/2026 e não são métricas em tempo real.</sub>
 
 ## Sumário
 
